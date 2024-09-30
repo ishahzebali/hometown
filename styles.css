@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    height: 100%;
+    margin: 0px;
+    font-family: "Advent Pro", sans-serif;
+}
+
+#hero {
+    background-image: url("/images/hero-img-lhr.jpeg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero-text {
+    color: white;
+    margin: 80px auto;
+    text-shadow: 0 0 2px red;
+}
+
+#title-img {
+    background-color: rgba(0, 0, 0, 0.526);
+    padding: 7px 20px;
+    border-radius: 10px;
+    width: 170px;
+    margin: 0 auto;
+}
+
+#description-img {
+    background-color: rgba(0, 0, 0, 0.526);
+    border-radius: 10px;
+    width: 800px;
+    margin: 40px auto;
+    padding: 7px 20px;
+}
+
+
+.activities {
+    background-color: rgba(255, 149, 0, 0.453);
+    height: 500px;
+    margin-top: -20px;
+}
+
+.act-title {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.three-activities {
+    padding-top: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-content: center; 
+}
+
+.act-img1 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.act-img2 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.act-img3 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.act-h1 {
+    color: black;
+}
+.act-h2 {
+    color: black;
+}
+.act-h3 {
+    color: black;
+}
+
+.act-p1 {
+    width: 400px;
+    margin: 0 auto;
+
+}
+.act-p2 {
+    width: 400px;
+    margin: 0 auto;
+}
+.act-p3 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.guide-card {
+    background-color: rgb(255, 119, 0);
+    width: 600px;
+    height: 400px;
+    margin: 60px auto;
+    border-bottom: 10px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.avatar{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.card-p {
+    width: 200px;
+    font-size: x-large;
+}
+
+.guide-card:hover {
+    background-color: rgb(208, 41, 41);
+}
+
+.activities:hover {
+    background-color: antiquewhite;
+}
